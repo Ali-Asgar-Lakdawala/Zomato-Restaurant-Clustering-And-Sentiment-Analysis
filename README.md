@@ -13,11 +13,21 @@ For sentiment analysis, we used both supervised and unsupervised techniques wher
 Your task is to cluster the zomato restaurants into different segments. Also the data has valuable information around cuisine and costing which can be used in cost vs. benefit analysis
 Perform sentiment analysis. Also use metadata of reviewers to identifying the critics in the industry.
 
+## About the data
+There are two data files
+* "Zomato restaurant reviews" has Name of the Restaurant, Name of the customer, their review, rating, follower details, Time of Review and number of photos uploaded along with the review. This data has been mainly used for Sentiment analysis.
+* "Zomato Restaurant names and Metadata" has the details of Name of the Restaurant, Link to order on their restaurant on zomato, Average cost, Tags for the restaurants, Cuisines and timings. This data has been mainly used for clustering.
+
 ## Models used 
+### For clustring 
 * K-means Clustering
 * Hierarchical Clustering
+
+### For sentiment Analysis( Unsupervised )
 * Linear Discriminant Analysis 
 * Non-negative Matrix Factorization
+
+### For sentiment Analysis( Supervised )
 * Logistic Regression
 * Decision Trees
 * Random Forest
@@ -31,9 +41,9 @@ We have created front-end using Streamlit for the webapp. whose deployments and 
 
 | Website | Link |
 | ------ | ------ |
-| Github | https://github.com/Ali-Asgar-Lakdawala/ML-deployment |
-| Heroku | https://my-ml-deployments.herokuapp.com/ |
-| Streamlit | https://share.streamlit.io/ali-asgar-lakdawala/ml-deployment/main/app.py |
+| Github | https://github.com/Ali-Asgar-Lakdawala/my-ml-deployment-2 |
+| Heroku | https://my-ml-deployment-2.herokuapp.com/ |
+| Streamlit | https://share.streamlit.io/ali-asgar-lakdawala/my-ml-deployment-2/main/app.py|
 ## Conclusion
 
 * We got best cluster as 3 in k means and in hierarchical
