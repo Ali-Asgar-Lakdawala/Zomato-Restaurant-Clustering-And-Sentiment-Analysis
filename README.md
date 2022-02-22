@@ -15,7 +15,7 @@ Perform sentiment analysis. Also, use the metadata of reviewers to identify the 
 
 ## About the data
 There are two data files
-* "Zomato restaurant reviews" has the Name of the Restaurant, Name of the customer, their review, rating, follower details, Time of Review, and the number of photos uploaded along with the review. This data has been mainly used for Sentiment analysis.
+* "Zomato restaurant reviews"  
     * Restaurant: Name of the Restaurant
     * Reviewer: Name of the Reviewer
     * Review: Review Text
@@ -24,8 +24,9 @@ There are two data files
     * Time: Date and Time of Review
     * Pictures: No. of pictures posted with the review
 
+This data has been mainly used for Sentiment analysis.
 
-* "Zomato Restaurant names and Metadata" has the details of the Name of the Restaurant, Link to order on their restaurant on Zomato, Average cost, Tags for the restaurants, Cuisines, and timings. This data has been mainly used for clustering.
+* "Zomato Restaurant names and Metadata"  
     * Name: Name of Restaurants
     * Links: URL Links of Restaurants
     * Cost: Per person estimated Cost of dining
@@ -33,6 +34,7 @@ There are two data files
     * Cuisines: Cuisines served by Restaurants
     * Timings: Restaurant Timings
 
+This data has been mainly used for clustering.
 
 ## Steps involved:
 
